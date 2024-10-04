@@ -1,0 +1,14 @@
+distinctipy>=1.2.3
+fury>=0.9.0
+matplotlib
+nibabel
+numpy
+ordered-set
+pandas
+pyvista
+trx-python>0.2.9
+vtk>=9.3.0
+webcolors
+setuptools>=69.5
+dipy
+tslearn
