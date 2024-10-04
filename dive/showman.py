@@ -1,3 +1,4 @@
+import os
 import re
 import subprocess
 import numpy as np
@@ -11,7 +12,7 @@ from dive.csv_tocolors import Colors_csv
 from fury.data import read_viz_icons
 from vtkmodules.vtkCommonColor import vtkNamedColors
 from fury.ui.core import UI,Button2D, Disk2D, Rectangle2D, TextBlock2D
-import os
+
 selected_item = None
 class Panel2D(UI):
     """A 2D UI Panel.

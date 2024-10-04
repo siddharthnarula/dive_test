@@ -1,2 +1,0 @@
-[console_scripts]
-dive = dive.main:run_main

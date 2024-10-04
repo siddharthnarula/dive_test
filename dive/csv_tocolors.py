@@ -1,12 +1,10 @@
-import matplotlib
-import matplotlib.colors as mcolors
-import matplotlib.pyplot as plt
 import collections
 import numpy as np
 import pandas as pd
+import matplotlib
 from math import isnan
-import os
-
+import matplotlib.colors as mcolors
+import matplotlib.pyplot as plt
 class Colors_csv():
     def __init__(self,stats_csv=None):
         self.csv_flag = None

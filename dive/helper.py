@@ -5,17 +5,13 @@ import matplotlib
 import numpy as np
 import nibabel as nib
 from fury import actor,utils
-from scipy.ndimage import gaussian_filter
-from fury.colormap import colormap_lookup_table
-from vtkmodules.vtkRenderingCore import vtkProperty
-
-import tslearn.metrics as tslearn
 from tslearn.metrics import dtw_path
+from scipy.ndimage import gaussian_filter
+from dipy.tracking.streamline import length
 from dipy.segment.clustering import QuickBundles
+from vtkmodules.vtkRenderingCore import vtkProperty
 from dipy.segment.featurespeed import ResampleFeature
 from dipy.segment.metric import AveragePointwiseEuclideanMetric
-from dipy.tracking.streamline import length, transform_streamlines
-
 class load_3dbrain:
 
     def __init__(self,nifti) -> None:
